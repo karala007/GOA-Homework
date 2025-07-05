@@ -4,7 +4,7 @@ from turtle import *
 #we want to pait a house
 shape("turtle")
 
-speed(20)
+
 #step 1: draw a square]
 width(10)
 color("blue")
