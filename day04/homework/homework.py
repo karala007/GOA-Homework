@@ -12,7 +12,7 @@ print("hello,", name)  #output = ბეჭდავს ტექსტს და
 # ინახება ამ ცვლადში და დაპრინტავთ.
 
 user_input = input("something: ")
-print("type:", type(user_input))
+print(type(user_input))
 
 # 3)თიოთეული მონაცემთა ტიპისთვის (str,int,float), შექმენით 5 ცვლადი და დაუწერეთ კომენტარი თუ რომელ მონაცემთა ტიპს
 # ინახავს ცვლადი.
@@ -73,4 +73,4 @@ age = input("Enter your age: ")
 height = input("Enter your height: ")
 weight = input("Enter your weight: ")
 
-print("The user is", first_name, last_name + ",", "they are", age, "years old,", "height:", height, "m,", "weight:", weight, "kg.")
+print(first_name + last_name +  age +  height + weight )
