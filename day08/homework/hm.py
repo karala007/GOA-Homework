@@ -41,4 +41,39 @@ color = "red"
 for i in range(46):
     print(color)
 
-# 9)
+# 9)შენი დავალებაა ტერმინალში გამოიტანო შენი სახელის პირველი ასო 32 ჯერ
+name = 'D'
+for i in range(32):
+    print(name)
+
+
+# 10)მომხმარებელს შემოატანინე 3 სტრინგ ტიპის და ერთი ინტეჯერ ტიპის მნიშვნელობები და შენი დავალებაა მოახდინო ამ ოთხი მნიშვნელობის კონკატინაცია
+# (გამოიყენე შესაბამისი ფუნქცია რომ მოახდინოთ მონაცემთა ტიპიების გარდაქმნა ერთ მონაცემთა ტიპში რომ შეძლოთ კონკატინაცია)
+str1 = input("first string: ")
+str2 = input("second string: ")
+str3 = input("third string: ")
+num = int(input("integer:"))
+
+კონკატინაცია = (str1 + str2 + str3 + str(num))
+
+print (კონკატინაცია)
+
+
+# 1)შექმენი 4 ცვლადი,თითოეულში შეინახე განსხვავებული მონაცემთა ტიპები,შენი დავალებაა გაიგო ამ ცვლადებში შენახული მნიშვნელობის მონაცემთა ტიპი
+# (გამოიყენე შესაბამისი ფუნქცია)
+str = 'davita'
+int = 67
+float = 32.2
+bool = True
+print (type(str))
+print (type(int))
+print (type(float))
+print (type(bool))
+
+
+# 12მომხმარებელს შემოატანინე 4 რიცხვი და ტერმინალში დააბრუნე ამ 4 რიცხვის ჯამი
+num = input("number:")
+Num = input('number2":')
+NUm = input('number3:')
+NUM = input('number4:')
+print(int(num)+ int(Num) + int(NUm) + int(NUM))
