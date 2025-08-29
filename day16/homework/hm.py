@@ -29,12 +29,13 @@ elif age <= 12:
     print("you are a childe my brother")
 elif age <= 19:
     print("you are a teen")
-elif age <= 64:
+elif age <= 65:
     print("you are a grown up")
 elif age <= 120:
     print("you are old my man")
 else:
     print("burn the witch")
+
 
 #  3) დაწერეთ "password guesser" პროგრამა, შექმენით რაიმე ცვლადი და მასში შეინახეთ ის პაროლი რომელსაც ყველგან იყენებთ ;)
 # მომხმარებელს მოთხოვეთ გამოიცნოს თქვენი პაროლი
@@ -44,16 +45,16 @@ else:
 
 password = "<Da2006to>!"
 guesses = 0
-user_guesses = ""
+user_guesses = input("guess pasword: ")
 
 while user_guesses != password and user_guesses != "nah strong password":
-    user_guesses = input("guess pasword: ")
+    
     guesses = guesses + 1
 
 if user_guesses == password:
     print("congrats you guessed it", 'in', guesses, "guess")
 else:
-    print("you gave up", 'in', guesses, "try")
+    print("you gave up", 'in', guesses , "try")
 
 #  4) მომხმარებელს შემოატანიეთ სამი რიცხვი(მთელი/ათწილადი) და ამ სამი რიცხვთაგან დაბეჭდეთ უდიდესი
 
