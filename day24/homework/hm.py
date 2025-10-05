@@ -19,6 +19,8 @@ print(nums[-3])
 fruits = ["apple", "banana", "cherry", "grape", "kiwi", "orange"]
 
 print(fruits[2])
+print(fruits[-5])
+print(fruits[3])
 print(fruits[-3])
 
 # ===========================================================================================================================
