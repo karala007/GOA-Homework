@@ -19,14 +19,23 @@ print(arr)
 
 # 3) შექმენით 2 სია, ერთში იყოს მხოლოდ სტრინგ ტიპის ელემენტები, ხოლო მეორე სავსე იყოს ინტიჯერი მონაცემთა ტიპის ელემენტებით, რიცხვებით სავსე სიიდან, სტრინგებით სავსე სიაში ჩაამატე ის რიცხვები რომლებიც არიან 20-ზე მეტი და 50-ზე ნაკლები. გამოიყენეთ for ციკლი და შესაფერისი სიის ფუნქცია.
 
-stringi = ["apple", "banana", "cherry"]
+stringi = ["vashli", "banani", "marwyvi","genadi","avtomobili","sarecxi manqana"]
+
 nintejeri = [10, 25, 30, 45, 60, 15]
 
 for i in nintejeri:
     if 20 < i < 50:
-        stringi.append(str(i))
+        stringi.append(i)
 
 print(stringi)
 
 # 4) შექმენით სიტყვებით სავსე სია და ამ სიაში ყველა ისეთ სიტყვას რომელიც იწყება პატარა ასოთი, პირველი ასო გაუხადეთ დიდი. გამოიყენეთ for ციკლი და სტრინგის შესაბამისი ფუნქცია.
+
+stringi = ["vashli", "banani", "marwyvi","genadi","avtomobili","sarecxi manqana"]
+
+for i in range(len(stringi)):
+    if stringi[i][0].islower():
+        stringi[i] = stringi[i].capitalize()
+
+print(stringi)
 # 5) თქვენი სიტყვებით ახსენით რას აკეთებს გავლილი მასალიდან ყველა შესწავლილი სიის და სტრინგის ფუნქციები და for ციკლი.
