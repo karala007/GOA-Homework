@@ -101,11 +101,11 @@ for i in texti:
     elif i.isupper():
         simboloebi.append("-")
 
-minus_count = simboloebi.count("-")
+minusi = simboloebi.count("-")
 
 i = 0
 while i < len(simboloebi):
-    if minus_count % 2 == 0:
+    if minusi % 2 == 0:
         if simboloebi[i] == "+":
             simboloebi.pop(i)
         else:

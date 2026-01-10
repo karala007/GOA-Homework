@@ -4,14 +4,13 @@ words = ["game", "nika", "Nice", "goga", "HELLO", "leader"]
 
 result = []
 
-for word in words:
-    if word.islower() and word.startswith("g"):
+for i in words:
+    if i[0].islower() and i[0]=="g":
         result.append("Goga")
-    elif word.isupper() or word.startswith("N"):
+    elif i[0].isupper() or i[0]=="N":
         result.append("Nika")
     else:
         result.append("ლიდერი")
-
 print(result)
 
 # 3)  შექმენით რიცხვებით სავსე სია, თუ რიცხვი არის ლუწი ან დგას ლუწ ინდექსზე, ჩაამატეთ მისი კვადრატი ახალ სიაში - გამოიყენეთ შესაბამისი მათემატიკური ოპერატორი, ხოლო თუ რიცხვი არის კენტი ან დგას კენტ ინდექსზე, ახალ სიაში ჩაამატეთ 2-ჯერ დიდი რიცხვი. გამოიყენეთ while ციკლი.
