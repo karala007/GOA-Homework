@@ -6,14 +6,14 @@ pir = num[0]
 meo = num[1]
 
 if meo > pir:
-    pir, meor = meo, pir
+    pir, meo = meo, pir
 
 for i in num[2:]:
     if i > pir:
         meo = pir
         pir = i
-    elif num > meo and num != pir:
-        meo = num
+    elif i > meo and i != pir:
+        meo = i
 
 print(meo)
 
