@@ -43,7 +43,19 @@ print(count)
 
 # 5) შექმენით ყველანაირი მონაცემთა ტიპების ელემენტებით სავსე სია, ამოშალეთ ყველა დუპლიკატები - ყველაფერი რაც მეორდება 2-ზე მეტჯერ, გამოიყენეთ remove() ფუნქცია და while ციკლი.
 
+monacemebi = [ "rame", 2, "rame", 3, 1, 4, True, False, True]
 
+i = 0
+
+while i < len(monacemebi):
+    if monacemebi.count(monacemebi[i]) > 1:
+        sityva = monacemebi[i]
+        while sityva in monacemebi:
+            monacemebi.remove(sityva)
+    else:
+        i += 1
+
+print(monacemebi)
 
 # 6)  მომხმარებელს შემოატანინეთ წინადადება და დაპრინტეთ ამ წინადადებაში მყოფი ყველაზე გრძელი სიტყვა, გამოიყენეთ while ციკლი, არ გამოიყენოთ max() ფუნქცია.
 
