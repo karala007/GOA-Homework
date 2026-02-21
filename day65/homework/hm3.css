@@ -1,0 +1,47 @@
+#he1 {
+    color: blue;
+    font-size: 40px;
+    background-color: lightgray;
+    border: 5px solid red;
+    text-align: center;
+}
+
+#he2 {
+    color: green;
+    font-size: 35px;
+    background-color: yellow;
+    border: 4px dashed purple;
+    text-align: right;
+}
+
+#he3 {
+    color: red;
+    font-size: 30px;
+    background-color: lightblue;
+    border: 3px solid black;
+    text-align: left;
+}
+
+#he4 {
+    color: orange;
+    font-size: 25px;
+    background-color: pink;
+    border: 3px dotted blue;
+    text-align: center;
+}
+
+#he5 {
+    color: purple;
+    font-size: 20px;
+    background-color: lightgreen;
+    border: 2px solid brown;
+    text-align: right;
+}
+
+#he6 {
+    color: black;
+    font-size: 18px;
+    background-color: beige;
+    border: 2px double gray;
+    text-align: left;
+}

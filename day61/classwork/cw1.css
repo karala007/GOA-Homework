@@ -1,0 +1,33 @@
+#p1 {
+    color: red;
+    font-size: 18px;
+}
+
+#p2 {
+    color: blue(25, 25, 221);
+    font-size: 343px;
+}
+
+#p3 {
+    color: lightgreen;
+}
+
+#p4 {
+    text-align: center;
+}
+
+#p5 {
+    color: green;
+}
+
+#italic1 {
+    color: purple;
+}
+
+#italic2 {
+    color: orange;
+}
+
+#italic3 {
+    font-size: 10px;
+}

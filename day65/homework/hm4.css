@@ -1,0 +1,67 @@
+    .head1 {
+        color: blue;
+        font-size: 40px;
+        background-color: lightgray;
+        border: 4px solid red;
+        text-align: center;
+    }
+
+    #p1 {
+        color: red;
+        font-size: 16px;
+        background-color: lightcyan;
+    }
+
+    #p2 {
+        color: blue;
+        font-size: 18px;
+        background-color: lightpink;
+    }
+
+    #p3 {
+        color: green;
+        font-size: 20px;
+        background-color: lightgray;
+    }
+
+    #p4 {
+        color: purple;
+        font-size: 14px;
+        background-color: lightyellow;
+    }
+
+    #p5 {
+        color: orange;
+        font-size: 17px;
+        background-color: lightblue;
+    }
+
+    #p6 {
+        color: black;
+        font-size: 19px;
+        background-color: beige;
+    }
+
+    #p7 {
+        color: navy;
+        font-size: 15px;
+        background-color: lavender;
+    }
+
+    #p8 {
+        color: brown;
+        font-size: 21px;
+        background-color: lightgreen;
+    }
+
+    #p9 {
+        color: darkred;
+        font-size: 13px;
+        background-color: lightcoral;
+    }
+
+    #p10 {
+        color: teal;
+        font-size: 22px;
+        background-color: whitesmoke;
+    }
