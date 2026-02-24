@@ -1,0 +1,17 @@
+.pirveli {
+  text-decoration-line: overline underline line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(255, 0, 0);
+}
+
+.meore {
+  text-decoration-line: line-through;
+  text-decoration-style: double;
+  text-decoration-color: rgb(0, 0, 255);
+}
+
+.mesame {
+  text-decoration-line: overline;
+  text-decoration-style: dotted;
+  text-decoration-color: green;
+}

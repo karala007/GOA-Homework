@@ -1,0 +1,11 @@
+.underline {
+    text-decoration: underline violet;
+}
+
+.linethrough {
+    text-decoration: line-through dashed lime;
+}
+
+.overline {
+    text-decoration: overline dotted navy;
+}

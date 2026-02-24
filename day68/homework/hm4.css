@@ -1,0 +1,19 @@
+.sh1 {
+    text-shadow: -2px 2px 2px gold;
+}
+
+.sh2 {
+    text-shadow: 3px -2px 2px violet;
+}
+
+.sh3 {
+    text-shadow: -5px 2px -2px blue;
+}
+
+.sh4 {
+    text-shadow: -20px 3px -2px purple;
+}
+
+.sh5 {
+    text-shadow: 13px 0px 3px red;
+}
