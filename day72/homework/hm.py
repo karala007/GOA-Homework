@@ -45,15 +45,15 @@
 # In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
 
 # def well(x):
-#     good_count = 0
+#     good = 0
 
-#     for idea in x:
-#         if idea == "good":
-#             good_count += 1
+#     for i in x:
+#         if i == "good":
+#             good += 1
 
-#     if good_count == 0:
+#     if good == 0:
 #         return "Fail!"
-#     elif good_count <= 2:
+#     elif good <= 2:
 #         return "Publish!"
 #     else:
 #         return "I smell a series!"
@@ -78,7 +78,6 @@
 #     return total
 
 
-
 # 7. Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
 
 # Write a function which takes a list of strings and returns each line prepended by the correct number.
@@ -101,17 +100,8 @@
 # 8. Complete the function/method so that it returns the url with anything after the anchor (#) removed.
 
 # def remove_url_anchor(url):
-#     if '#' in url:
 
-#         index = 0
-#         for i in range(len(url)):
-#             if url[i] == '#':
-#                 index = i
-#                 break
-
-#         return url[:index]
-#     else:
-#         return url
+# return url.split("#")[0]
 
 
 # 9.When provided with a letter, return its position in the alphabet.
