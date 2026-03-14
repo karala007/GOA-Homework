@@ -1,0 +1,25 @@
+a{
+    font-size:45px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.link1:link{
+    color:white;
+    background-color:blue;
+}
+
+.link2:visited{
+    color:white;
+    background-color:green;
+}
+
+.link3:hover{
+    color:black;
+    background-color:yellow;
+}
+
+.link4:active{
+    color:white;
+    background-color:red;
+}
