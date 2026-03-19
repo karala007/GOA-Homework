@@ -1,0 +1,21 @@
+.country-list {
+    list-style-type: upper-alpha;
+    color: #ffffff;
+    background-color: #6f42c1;
+    border: 3px solid #4b2e83;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+    border-radius: 10px;
+}
+
+.city-list {
+    list-style-type: square;
+    color: #222;
+    background-color: #e2d9f3;
+    border: 2px solid #6f42c1;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Courier New", monospace;
+    border-radius: 8px;
+}

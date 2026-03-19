@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.daily-list {
+    list-style-type: decimal-leading-zero;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border: 3px solid #2c5aa0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.sub-list {
+    list-style-type: circle;
+    color: #222;
+    background-color: #d6e4ff;
+    border: 2px solid #7aa7e0;
+    font-size: 16px;
+    border-radius: 8px;
+}

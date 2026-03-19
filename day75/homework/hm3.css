@@ -1,0 +1,24 @@
+body {
+    background-color: #eef2f3;
+    font-family: Arial, sans-serif;
+}
+
+.category-list {
+    list-style-type: disc;
+    color: #ffffff;
+    background-color: #28a745;
+    border: 3px solid #1e7e34;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.product-list {
+    list-style-type: lower-alpha;
+    color: #222;
+    background-color: #c3e6cb;
+    border: 2px solid #155724;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 8px;
+}

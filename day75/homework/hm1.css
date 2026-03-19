@@ -1,0 +1,21 @@
+body {
+    background-color: #1e1e2f;
+    font-family: Arial, sans-serif;
+}
+
+.movie-list {
+    list-style-type: upper-roman;
+    color: #ffffff;
+    background-color: #3a3a5a;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.genres {
+    list-style-type: square;
+    color: #ffd700;
+    background-color: #2a2a40;
+    border-radius: 8px;
+    font-size: 16px;
+}

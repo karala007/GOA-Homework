@@ -1,0 +1,20 @@
+.food-list {
+    list-style-type: disc;
+    color: #ffffff;
+    background-color: #27ae60;
+    border: 3px solid #1e8449;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.vitamins{
+    list-style-type: none;
+    color: #222;
+    background-color: #d5f5e3;
+    border: 2px solid #82e0aa;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Courier New", monospace;
+}
