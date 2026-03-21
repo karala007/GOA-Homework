@@ -1,0 +1,22 @@
+.hobbies {
+    list-style-type: lower-alpha;
+    text-align: center;
+}
+
+li {
+    color: darkgreen;
+    background-color: lightyellow;
+    border: 2px solid green;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+li:hover {
+    color: white;
+    background-color: green;
+    border: 2px solid darkred;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.restaurants {
+    list-style-type: none;
+}
+
+li {
+    color: darkblue;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+li:active {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid red;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}
