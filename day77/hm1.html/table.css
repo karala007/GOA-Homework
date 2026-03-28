@@ -1,0 +1,16 @@
+table {
+    border: solid black;
+    width: 1000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.table3 tr:first-child {
+    background-color: #00bfff;
+    color: white;
+    font-weight: bold;
+}
+
+.table3 tr td {
+    border: solid white;
+}

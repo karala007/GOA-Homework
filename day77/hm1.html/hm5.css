@@ -1,0 +1,10 @@
+.history-list {
+    list-style-image: url('switch_access_shortcut_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png');
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    color: darkgreen;
+    background-color: #f0f0f0;
+    border: 5px solid black;
+    width: 320px;
+    text-align: right;
+}

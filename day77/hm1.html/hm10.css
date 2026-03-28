@@ -1,0 +1,21 @@
+.countries {
+  width: 450px;
+  list-style: georgian inside;
+  font-size: 18px;
+  color: darkblue;
+  background-color: #e6f2ff;
+  text-decoration: underline;
+}
+
+.cities {
+  list-style: circle outside;
+  font-size: 16px;
+  color: darkgreen;
+  background-color: #f0fff0;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+}

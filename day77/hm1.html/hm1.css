@@ -1,0 +1,8 @@
+.hobby-list {
+    list-style-position: inside;
+    color: white;
+    background-color: darkblue;
+    border: 5px solid black;
+    width: 450px;
+    font-size: 18px;
+}

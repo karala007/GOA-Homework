@@ -1,0 +1,33 @@
+.main-list {
+  width: 400px;
+  text-align: center;
+  background-color: #f0f8ff;
+  border: 2px solid blue;
+  font-size: 18px;
+  color: darkblue;
+  list-style-type: upper-roman;
+}
+
+.sub-list {
+  list-style-type: square;
+  background-color: #fffacd;
+  border: 1px dashed orange;
+  color: darkred;
+}
+
+.recipe {
+  width: 400px;
+  list-style: decimal inside;
+  background-color: #222;
+  color: white;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.recipe li:hover {
+  background-color: orange;
+}
+
+.recipe li:active {
+  background-color: red;
+}

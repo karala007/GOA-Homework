@@ -1,0 +1,17 @@
+.mokle {
+    list-style: square inside url('dada.jpg');
+    background-color: #eee;
+    border: 3px solid black;
+    width: 300px;
+    font-family: Verdana, sans-serif;
+}
+
+.mokle li {
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.mokle li:hover {
+    background-color: black;
+    color: white;
+}

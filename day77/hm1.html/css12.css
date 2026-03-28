@@ -1,0 +1,17 @@
+table {
+    width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+.table1 tr th{
+    background-color: green;
+}
+
+.table1 tbody tr:nth-child(odd) {
+    background-color: #3759b6;
+}
+
+.table1 tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    color: white;
+}

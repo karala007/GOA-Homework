@@ -1,0 +1,18 @@
+.recipe {
+  width: 400px;
+  list-style: decimal inside;
+  color: white;
+  background-color: #333;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.recipe li:hover {
+  background-color: orange;
+  color: black;
+}
+
+.recipe li:active {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.cities li {
+  border: 2px solid blue;
+  text-align: center;
+  color: darkblue;
+  background-color: #e6f0ff;
+  text-decoration: underline;
+}
+
+.cities li:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-color: darkred;
+}
