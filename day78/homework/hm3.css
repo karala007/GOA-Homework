@@ -1,0 +1,28 @@
+.form {
+    width: 360px;
+    background: #ffffff;
+    border: 2px solid #4bbcd8;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+}
+
+.form h3 {
+    color: #4bbcd8;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #4bbcd8;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}

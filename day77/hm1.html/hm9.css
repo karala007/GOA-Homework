@@ -1,1 +1,16 @@
+form{
+    border: black solid;
+}
 
+button {
+    width: 175;
+    background-color: #63b26b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #57a45e;
+}
