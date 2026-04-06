@@ -1,0 +1,12 @@
+.container {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    color: green;
+    background-color: pink;
+    padding: 200px 150px;
+}
+
+.btn {
+    padding: 20px;
+}

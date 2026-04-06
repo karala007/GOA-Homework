@@ -1,0 +1,11 @@
+.box {
+    width: 150px;
+    height: 150px;
+    border: 6px solid yellow;
+    background-color: brown;
+    padding-top: 900px;
+}
+
+.btn {
+    padding-bottom: 50px;
+}

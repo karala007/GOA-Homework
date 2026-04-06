@@ -1,0 +1,22 @@
+.rame {
+    border-top: 1px solid rgb(237, 75, 75);
+    border-right: 8px solid rgb(30, 30, 186);
+    border-bottom: 2px solid rgb(34, 221, 34);
+    border-left: 5px solid rgb(255, 0, 0);
+}
+
+.rame1 {
+    margin: 80px 20px;
+}
+
+.rame2 {
+    margin: 40px;
+}
+
+.rame3 {
+    margin: 10px 60px 35px 80px;
+}
+
+.rame4 {
+    margin-bottom: 45px;
+}
