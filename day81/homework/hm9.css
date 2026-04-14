@@ -1,0 +1,17 @@
+.parent {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    border: 2px solid violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.child {
+    background-color: skyblue;
+    font-size: 15px;
+    padding: 40px;
+    margin: 40px;
+}

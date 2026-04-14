@@ -1,0 +1,32 @@
+.parent {
+  width: 600px;
+  height: 600px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.child {
+  font-size: 50;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(12, 21, 147);
+  border: 3px solid rgb(63, 12, 115);
+  margin: 5px;
+}
+
+/* .parent {
+  flex-direction: row;
+} */
+
+/* .parent {
+  flex-direction: row-reverse;
+} */
+
+/* .parent {
+  flex-direction: column;
+} */
+
+/* .parent {
+  flex-direction: column-reverse;
+} */

@@ -1,0 +1,17 @@
+.parent {
+    width: 350px;
+    height: 300px;
+    background-color: pink;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    background-color: violet;
+    font-size: 16px;
+    padding: 30px;
+    margin: 30px;
+}
