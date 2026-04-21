@@ -1,0 +1,23 @@
+.container {
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.box {
+  width: 120px;
+  height: 60px;
+  background: rgb(187, 97, 81);
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.top {
+  align-self: flex-start;
+}
