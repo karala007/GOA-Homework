@@ -7,7 +7,7 @@
 .item {
     flex-basis: 250px;
     height: 100px;
-    background: lightgray;
+    background: rgb(200, 70, 70);
     margin: 5px;
     display: flex;
     align-items: center;

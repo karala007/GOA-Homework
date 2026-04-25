@@ -6,7 +6,7 @@
     width: 100px;
     height: 100px;
     margin: 5px;
-    border: red solid;
+    border: rgb(117, 59, 59) solid;
     display: flex;
     align-items: center;
     justify-content: center;

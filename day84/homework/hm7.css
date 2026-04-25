@@ -4,10 +4,10 @@
     border: 2px solid black;
 }
 
-.box {
+.item {
     flex-basis: 200px;
     height: 80px;
-    color: white;
+    color: rgb(142, 150, 160);
     display: flex;
     align-items: center;
     justify-content: center;

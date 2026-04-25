@@ -10,7 +10,7 @@
   flex-shrink: 0;
   height: 80px;
   margin: 5px;
-  background: coral;
+  background: rgba(117, 150, 26, 0.786);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -4,7 +4,7 @@
 
 .item {
     height: 100px;
-    background: lightgray;
+    background: rgb(186, 47, 47);
     margin: 5px;
     display: flex;
     align-items: center;
