@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover {
+    background: steelblue;
+}
+
+.item3:hover {
+    flex-grow: 1;
+}

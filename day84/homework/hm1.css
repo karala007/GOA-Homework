@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+.rame {
+    width: 100px;
+    background: rgb(217, 30, 30);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.rame2 {
+    flex-grow: 1;
+}

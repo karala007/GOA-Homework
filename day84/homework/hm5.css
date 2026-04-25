@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+}
+
+.item {
+    height: 100px;
+    background: lightblue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    flex-basis: 100px;
+}
+
+.item2 {
+    flex-basis: 200px;
+}
+
+.item3 {
+    flex-basis: 300px;
+}
+
+.item4 {
+    flex-basis: 150px;
+}

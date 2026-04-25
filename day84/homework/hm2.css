@@ -1,0 +1,30 @@
+.navigacia {
+    border: solid red;
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: white;
+}
+
+img {
+    border: solid white; 
+    border-radius: 100px;  
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 15px;
+}
+
+.but {
+    background: #ff9800;
+    color: white;
+    border-radius: 5px;
+}
