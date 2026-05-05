@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+.main {
+    width: 635px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.zemo {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+}
+
+.zemo h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+}
+
+.zemo h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.zemo p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.65;
+}
+
+.qvemo {
+    display: flex;
+}
+
+.tviuri-gadasaxadi, .mesame {
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tviuri-gadasaxadi {
+    background-color: hsl(179, 62%, 43%);
+    gap: 20px;
+}
+
+.tviuri-gadasaxadi h3, .mesame h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.igive {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fasi {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.tveshi {
+    color: hsl(204, 43%, 93%);
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.tviuri-gadasaxadi p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.butto {
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.mesame {
+    background-color: hsl(179, 62%, 48%);
+    gap: 20px;
+}
+
+.mesame ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
+}
+
+.mesame li {
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+    opacity: 0.85;
+    line-height: 1.4;
+}
