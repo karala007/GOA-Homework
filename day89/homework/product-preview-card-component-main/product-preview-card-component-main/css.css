@@ -38,13 +38,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap:24px;
 }
 
 .tag {
     color: hsl(228, 12%, 48%);
     font-size: 13px;
     letter-spacing: 5px;
-    margin-bottom: 20px;
+
 }
 
 .saxeli {
@@ -52,21 +53,21 @@ body {
     color: hsl(212, 21%, 14%);
     font-size: 32px;
     line-height: 1.0;
-    padding-bottom: 24px;
+
 }
 
 .texti {
     color: hsl(228, 12%, 48%);
     font-size: 14px;
     line-height: 1.6;
-    padding-bottom: 28px;
+
 }
 
 .fasi {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 30px;
+
 }
 
 .sale {
