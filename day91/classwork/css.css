@@ -1,0 +1,26 @@
+.rame1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(149, 60, 13);
+    position: relative;
+    left: 105px;
+    top: 65px;
+}
+
+.rame2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(54, 8, 89);
+}
+
+.rame3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(97, 9, 9);
+}
+
+.rame4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
