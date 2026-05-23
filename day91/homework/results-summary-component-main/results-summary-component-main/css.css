@@ -128,10 +128,18 @@ body {
     color: hsl(224, 30%, 27%);
 }
 
-.reaction { background-color: hsla(0, 100%, 67%, 0.05); color: hsl(0, 100%, 67%); }
-.memory   { background-color: hsla(39, 100%, 56%, 0.05); color: hsl(39, 100%, 56%); }
-.verbal   { background-color: hsla(166, 100%, 37%, 0.05); color: hsl(166, 100%, 37%); }
-.visual   { background-color: hsla(234, 85%, 45%, 0.05); color: hsl(234, 85%, 45%); }
+.reaction { 
+    background-color: hsla(0, 100%, 67%, 0.05); color: hsl(0, 100%, 67%); 
+}
+.memory   { 
+    background-color: hsla(39, 100%, 56%, 0.05); color: hsl(39, 100%, 56%); 
+}
+.verbal   { 
+    background-color: hsla(166, 100%, 37%, 0.05); color: hsl(166, 100%, 37%); 
+}
+.visual   { 
+    background-color: hsla(234, 85%, 45%, 0.05); color: hsl(234, 85%, 45%); 
+}
 
 .btn-continue {
     background-color: hsl(224, 30%, 27%);
