@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px; 
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.agwera {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.statistika {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth, .time {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text {
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.time1 {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.zoli {
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.pfp {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.pfp1 {
+    width: 33px;
+    height: 33px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.avtori {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.avtori1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}

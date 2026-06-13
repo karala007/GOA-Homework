@@ -1,0 +1,5 @@
+.sec {
+    width: 800px;
+    height: 400px;
+    background: url('random.jpg') repeat-x right bottom / 150px 150px;
+}

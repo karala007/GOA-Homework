@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gadideba {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.gadideba:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobruneba {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    background-color: #e67e22;
+    border-radius: 50px 60px;
+    color: rgb(182, 0, 0);
+    border: none;
+}
+
+.mobruneba:hover {
+    transform: rotate(90deg);
+}

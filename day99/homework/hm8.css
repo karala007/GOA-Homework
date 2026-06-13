@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gela {
+    width: 150px;
+    height: 150px;
+    background-color: rebeccapurple;
+    transform: scaleX(2);
+}
+
+p{
+    text-align: center;
+}

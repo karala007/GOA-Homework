@@ -1,0 +1,6 @@
+.foto {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #f30000;
+  background: url('123456.webp') no-repeat center / 400px;
+}

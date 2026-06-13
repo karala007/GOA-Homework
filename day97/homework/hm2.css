@@ -1,0 +1,27 @@
+.card {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.green {
+    background-color: green;
+    top: 100px;
+    left: 90px;
+    z-index: 1;
+}
+
+.dark {
+    background-color: black;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.blue {
+    background-color: blue;
+    top: 60px;
+    left: 50px;
+    z-index: 3;
+}

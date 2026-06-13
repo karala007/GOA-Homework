@@ -1,0 +1,12 @@
+.gela {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: rgb(26, 8, 189);
+    border: none;
+    border-radius: 5px;
+}
+
+.gela:hover {
+    transform: translate(10px, 15px);
+}

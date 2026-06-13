@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el {
+    width: 300px;
+    padding: 20px;
+    background-color: #d60000;
+    border-radius: 12px;
+}
+
+.el:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+}
+
+.pepe h3 {
+    color: #1105bb;
+}
+
+.pepe p {
+    color: #0602eb;
+}

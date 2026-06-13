@@ -1,0 +1,19 @@
+body {
+    height: 1000vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chat {
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    background-color: #0a07b3;
+    color:orange;
+    padding: 0 20;
+    border-radius: 40px;
+}
+
+.chat2 {
+    font-weight: bold;
+    font-size: 20px;
+}

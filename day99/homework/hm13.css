@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mamuka {
+    width: 100px;
+    height: 100px;
+    background-color: #57ec00;
+    transform: rotateY(55deg);
+}
+
+p{
+    text-align: center;
+}

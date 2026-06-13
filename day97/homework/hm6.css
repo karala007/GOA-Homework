@@ -1,0 +1,5 @@
+.imag {
+    width: 800px;
+    height: 400px;
+    background: url('random.jpg')  repeat-y left bottom / 80px ;
+}

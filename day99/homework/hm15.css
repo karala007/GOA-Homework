@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mamuka {
+    width: 100px;
+    height: 100px;
+    background-color: #48c400;
+}
+
+.mamuka:hover{
+    transform: rotateX(60deg);
+}

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top:  90px;
+    left: 110px;
+    z-index: 1;
+}
+
+.purple {
+    width: 200px;
+    height: 200px;
+    background-color: #6200ff;
+    top: 40px;
+    left: 60px;
+    z-index: 2;
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    top: 130px;
+    left: 160px;
+    z-index: 3;
+}

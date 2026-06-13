@@ -1,0 +1,15 @@
+.rame {
+    width: 100%;
+    min-height: 600px;
+    background: url('random.jpg') no-repeat center / cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rame_D {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: url('car.jpg') no-repeat center / cover ;
+}
