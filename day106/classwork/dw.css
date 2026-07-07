@@ -1,0 +1,17 @@
+.container{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    background-color: black;
+
+}
+
+.box{
+    background-color: red;
+    /* grid-column: 3 / 6;
+    grid-row: 4/7; */
+
+    grid-area: 4 / 3 / 7 / 6;
+}
