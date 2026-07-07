@@ -1,0 +1,40 @@
+.container {
+    width: 470px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: 220px 120px 130px;
+    grid-template-rows: 120px 120px;
+    gap: 10px;
+}
+ 
+.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #e0195f;
+}
+ 
+.two {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #f7981c;
+}
+ 
+.three {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #a333b8;
+}
+ 
+.four {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #56626e;
+}

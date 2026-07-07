@@ -1,0 +1,8 @@
+.gela {
+    width: 800px;
+    height: 800px;
+    border: solid red;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 250px 400px;
+}
