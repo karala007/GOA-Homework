@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    border: 2px solid #00ffaa;
+    /* justify-content: ;   start  საწყის პოზიციაზე იქნება ხელმარცხნივ  center ცენტრში end მარჯვნივ  x ღერძზე*/
+    gap: 13px;
+}
+
+.box {
+    height: 100px;
+    background-color: #ff0303;
+}

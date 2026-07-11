@@ -1,0 +1,18 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    border: 2px solid black;
+    justify-content: center;  /*განალაგებს x ღერძზე თვითონ გრიდს */
+    align-content: center;   /*განალაგებს y ღერძზე თვითონ გრიდს */
+    align-items: end;       /*განალაგებს y ღერძზე გრიდში მყოფ ელემეტს */
+    justify-content: center;  /*განალაგებს x ღერძზე გრიდში მყოფ ელემეტს */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #28a745;
+}

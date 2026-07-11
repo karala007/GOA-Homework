@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    height: 600px;
+    border: red solid;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+    align-content: end;
+    justify-content: end;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    justify-self: end;
+}
+
+.gan {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    justify-self: start;
+    align-self: end;
+}
