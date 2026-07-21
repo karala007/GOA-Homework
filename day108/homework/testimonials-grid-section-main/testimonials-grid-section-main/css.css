@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght=500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    background-color: hsl(214, 17%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1025px;
+    height: 533px;
+    display: grid;
+    row-gap: 24px;
+    column-gap: 30px;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card {
+    border-radius: 8px;
+    padding: 27px;
+    box-shadow: 0 10px 20px rgb(51, 45, 45);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+h5 {
+    font-size: 9px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.5;
+}
+
+img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+}
+
+.big {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.small {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.one {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1 / 3;
+}
+
+.two {
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 3 / 4;
+}
+
+.three {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+}
+
+.four {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 1 / 2;
+}
+
+.five {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: 2 / 4;
+}

@@ -1,0 +1,15 @@
+.i {
+    border: 1px solid black;
+    transition: border-color 0.3s, transform 0.3s;
+}
+.i::placeholder {
+    color: gray;
+    transition: color 0.3s;
+}
+.i:focus {
+    border-color: blue;
+    transform: scale(1.1);
+}
+.i:focus::placeholder {
+    color: blue;
+}

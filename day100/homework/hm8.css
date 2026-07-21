@@ -1,0 +1,13 @@
+.n {
+    display: flex;
+    gap: 20px;
+}
+.l {
+    color: blue;
+    transition: transform 0.3s, color 0.3s, letter-spacing 0.3s;
+}
+.l:hover {
+    transform: scale(1.2);
+    color: red;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,16 @@
+.c {
+    height: 150px;
+    background-color: gray;
+    overflow: hidden;
+    transition: height 0.4s;
+}
+.t {
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.c:hover {
+    height: 300px;
+}
+.c:hover .t {
+    opacity: 1;
+}

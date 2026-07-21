@@ -1,0 +1,14 @@
+.b {
+    width: 200px;
+    height: 20px;
+    background-color: #ccc;
+}
+.p {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    transition: width 3s ease-out 2s;
+}
+.b:hover .p {
+    width: 100%;
+}

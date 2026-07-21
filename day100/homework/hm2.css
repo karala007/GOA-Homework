@@ -1,0 +1,21 @@
+.c {
+    background-color: silver;
+    transition: box-shadow 0.4s linear;
+}
+.i {
+    width: 100px;
+    transition: transform 0.4s linear;
+}
+.n {
+    color: black;
+    transition: color 0.4s linear;
+}
+.c:hover {
+    box-shadow: 0 5px 15px black;
+}
+.c:hover .i {
+    transform: scale(1.2);
+}
+.c:hover .n {
+    color: red;
+}

@@ -1,0 +1,13 @@
+.g {
+    display: flex;
+}
+.i {
+    width: 100px;
+    transition: transform 0.4s ease-out;
+}
+.g:hover .i {
+    transform: scale(0.8);
+}
+.g .i:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,21 @@
+.c {
+    background-color: #eee;
+    transition: transform 0.4s ease-in-out;
+}
+.i {
+    width: 150px;
+    transition: transform 0.4s ease-in-out;
+}
+.b {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+.c:hover {
+    transform: translateY(-20px);
+}
+.c:hover .i {
+    transform: scale(1.1);
+}
+.c:hover .b {
+    opacity: 1;
+}

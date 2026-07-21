@@ -1,0 +1,16 @@
+.b {
+    width: 100px;
+    background-color: blue;
+    transition: width 0.5s, background-color 0.5s;
+}
+.t {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.b:hover {
+    width: 300px;
+    background-color: green;
+}
+.b:hover .t {
+    opacity: 1;
+}
