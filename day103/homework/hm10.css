@@ -1,0 +1,16 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: magic 2s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes magic {
+    to {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        transform: rotate(360deg);
+    }
+}

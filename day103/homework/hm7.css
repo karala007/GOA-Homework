@@ -1,0 +1,16 @@
+.circ {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    animation: upColor 4s forwards;
+}
+
+@keyframes upColor {
+    to {
+        transform: translateY(-250px);
+        background-color: orange;
+    }
+}

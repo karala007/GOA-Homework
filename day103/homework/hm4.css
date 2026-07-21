@@ -1,0 +1,14 @@
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    animation: scale 1s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}

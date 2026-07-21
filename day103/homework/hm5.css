@@ -1,0 +1,16 @@
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    animation: drop 1.5s ease-in infinite;
+}
+
+@keyframes drop {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
