@@ -1,0 +1,6 @@
+console.log("davita")
+console.log("karalashvili")
+console.log(20)
+console.log("zmk")
+console.log(172)
+console.log(true)
