@@ -4,17 +4,11 @@ let greet = (name) => `Hello, ${name}!`
 console.log(greet("Nika"))
 console.log(greet("Gegi"))
 
-// 2
-let calculatePrice = (price, quantity, discount) => discount >= 20 ? price * quantity * (1 - discount / 100) : price * quantity
-
-console.log(calculatePrice(100, 3, 20))
-console.log(calculatePrice(100, 3, 10))
-
 // 3
 let calculateSalary = (salary, bonus) => bonus > 500 ? salary + salary * 0.1 : salary
 
 console.log(calculateSalary(2000, 600))
-console.log(calculateSalary(2000, 300))
+console.log(calculateSalary(2000, 400))
 
 // 4
 let getAgeCategory = (age) => age >= 60 ? "Senior" : age >= 18 ? "Adult" : age >= 13 ? "Teenager" : "Child"
